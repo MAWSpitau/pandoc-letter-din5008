@@ -8,9 +8,10 @@
     version=last         % latest version of KOMA letter
 ]{scrlttr2}
 
-\usepackage[ngerman]{babel}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\setmainfont{Linux Libertine O}
+\usepackage{polyglossia}
+\setdefaultlanguage{german}
 
 \usepackage{parskip}
 
